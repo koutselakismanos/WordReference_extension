@@ -8,7 +8,7 @@ extension as I was not getting the results I expected to.
 
 - [X] Translate with context menu (on right click).
 - [ ] Show Popup and translate on text select.
-- [ ] Play accent audio on 🔊 button click.
 - [ ] Translate multiple languages (Currently only english to greek).
+- [ ] Play accent audio on 🔊 button click.
 - [ ] Multi browser support (Currently only chrome).
 - [ ] Auto detect language to translate.
