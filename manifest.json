@@ -1,0 +1,29 @@
+{
+  "name": "WordReference",
+  "description": "WordReference translate",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "contextMenus"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/wordreference.png",
+      "32": "/images/wordreference.png",
+      "48": "/images/wordreference.png",
+      "128": "/images/wordreference.png"
+    }
+  },
+  "icons": {
+    "16": "/images/wordreference.png",
+    "32": "/images/wordreference.png",
+    "48": "/images/wordreference.png",
+    "128": "/images/wordreference.png"
+  }
+}
