@@ -10,9 +10,11 @@
     "storage",
     "activeTab",
     "scripting",
-    "contextMenus"
+    "contextMenus",
+    "tabs"
   ],
   "action": {
+    "default_popup": "popup.html",
     "default_icon": {
       "16": "/images/wordreference.png",
       "32": "/images/wordreference.png",
@@ -25,5 +27,16 @@
     "32": "/images/wordreference.png",
     "48": "/images/wordreference.png",
     "128": "/images/wordreference.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "inject.js"
+      ]
+    }
+  ]
 }
