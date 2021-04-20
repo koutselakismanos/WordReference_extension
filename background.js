@@ -4,8 +4,7 @@ const menus = {
 }
 
 chrome.runtime.onInstalled.addListener(() => {
-    chrome.contextMenus.create({'title': 'Go to WordReference', 'id': menus.PARENT, contexts: ['selection']});
-    chrome.contextMenus.create({'title': 'Translate', 'id': menus.TRANSLATE, contexts: ['selection']});
+    chrome.contextMenus.create({'title': 'WordReference', 'id': menus.PARENT, contexts: ['selection']});
 });
 
 chrome.contextMenus.onClicked.addListener(event => {
